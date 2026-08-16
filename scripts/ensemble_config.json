@@ -1,0 +1,12 @@
+{
+  "_comment": "LOCKED winning ensemble for AISA-ArabicFC blind test (2026-07-20), Six members + enum-validity combiner. With both convention rules this scores ArgEM 0.822 / OverallA 0.8925 on dev under v1.4 gold, and 0.816 under v1.3 gold. Plain per-argument majority vote (no dev-tuned weights => generalizes) + enum-validity override (CV-confirmed, generalizes to blind). Tie-break order was fixed on an early gold revision and no longer tracks measured strength (qC is strongest); correcting it leaves dev ArgEM unchanged at 0.822.",
+  "models": [
+    {"name": "v10", "base": "ALLaM-AI/ALLaM-7B-Instruct-preview", "adapter": "runs/allam-v10-2ep/final"},
+    {"name": "v12", "base": "ALLaM-AI/ALLaM-7B-Instruct-preview", "adapter": "runs/allam-v12-r64-2ep/final"},
+    {"name": "v7b", "base": "Qwen/Qwen2.5-7B-Instruct",            "adapter": "runs/qwen7b-v7b-2ep/final"},
+    {"name": "v7",  "base": "Qwen/Qwen2.5-7B-Instruct",            "adapter": "runs/qwen7b-v7-v11/final"},
+    {"name": "aC",  "base": "ALLaM-AI/ALLaM-7B-Instruct-preview", "adapter": "runs/allam-clean/final"},
+    {"name": "qC",  "base": "Qwen/Qwen2.5-7B-Instruct",            "adapter": "runs/qwen25-clean/final"}
+  ],
+  "tiebreak_order": ["v10", "v12", "v7b", "v7", "aC", "qC"]
+}

@@ -1,0 +1,545 @@
+{"id": 0, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_traffic_violations ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 1, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع get_qibla_direction ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 2, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 3, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_traffic_violations ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 4, "tool_called": "get_qibla_direction", "arguments": {"city": "بورتسودان"}, "think": "يبحث المستخدم عن اتجاه القبلة في مدينة بورتسودان. أداة get_qibla_direction هي الأنسب لأنها مصممة لتحديد اتجاه القبلة بناءً على الموقع الجغرافي. المدخلات المتوقعة هي city=بورتسودان."}
+{"id": 5, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 6, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 7, "tool_called": "translate_text", "arguments": {"target_language": "de", "text": "أنا مشغول جدا النهاردة"}, "think": "فهمت أنك ترغب في ترجمة جملة إلى اللغة الألمانية. أداة \"translate_text\" هي الأنسب لهذا الغرض لأنها مصممة لترجمة النصوص بين اللغات المختلفة. المدخلات المتوقعة هي: text=أنا مشغول جدا النهاردة و target_language=de."}
+{"id": 8, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 9, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع math ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 10, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع ambiguous_underspecified ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 11, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع compare_prices ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 12, "tool_called": "calculate_customs", "arguments": {"category": "حقيبة يد", "destination_country": "الإمارات", "product_value": 500.0}, "think": "فهمت أن المستخدم يريد معرفة قيمة الجمارك على حقيبة يد بقيمة 500 ريال في الإمارات. أداة \"calculate_customs\" هي الأنسب لأنها مصممة لحساب الجمارك بناءً على قيمة المنتج وفئته ووجهته. المدخلات المتوقعة هي: product_value=500.0، category=حقيبة يد، destination_country=الإمارات."}
+{"id": 13, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع currency conversion ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 14, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع opinion ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 15, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 16, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع book_doctor_appointment ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 17, "tool_called": "search_hotels", "arguments": {"check_in": "2024-02-01", "check_out": "2024-02-10", "city": "القاهرة", "guests": 2.0}, "think": "فهمت أنك تبحث عن فنادق في القاهرة لفترة محددة لشخصين. أداة \"search_hotels\" هي الأنسب لأنها مصممة للبحث عن خيارات الإقامة بناءً على المدينة وتواريخ الوصول والمغادرة وعدد الضيوف. المدخلات المتوقعة هي: city=القاهرة، check_in=2024-02-01، check_out=2024-02-10، guests=2."}
+{"id": 18, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_iqama_status ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 19, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 20, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 21, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 22, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع chitchat ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 23, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 24, "tool_called": "translate_text", "arguments": {"target_language": "en", "text": "كتاب"}, "think": "فهمت أنك ترغب في ترجمة كلمة \"كتاب\" إلى الإنجليزية. أداة \"translate_text\" هي الأنسب لهذا الغرض لأنها مصممة لترجمة الكلمات بين اللغات. المدخلات المتوقعة هي: text=كتاب و target_language=en."}
+{"id": 25, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_iqama_status ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 26, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 27, "tool_called": "search_hotels", "arguments": {"city": "بيروت"}, "think": "يبحث المستخدم عن فنادق مناسبة في بيروت. أداة \"search_hotels\" هي الأنسب لأنها مصممة للبحث عن خيارات الإقامة في المدن. المدخلات المتوقعة هي: city=بيروت."}
+{"id": 28, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 29, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 30, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع general_knowledge ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 31, "tool_called": "calculate_zakat", "arguments": {"amount": 10000.0, "currency": "دولار", "type": "trade"}, "think": "يبدو أن المستخدم يرغب في حساب زكاة التجارة على مبلغ 10000 دولار. أداة \"calculate_zakat\" هي الأنسب لهذا الغرض لأنها مصممة خصيصًا لحساب الزكاة بناءً على نوع المال والمبلغ. المدخلات المتوقعة هي: type=تجارة، amount=10000.0، currency=دولار."}
+{"id": 32, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 33, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_iqama_status ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 34, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 35, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع get_weather ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 36, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع opinion ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 37, "tool_called": "compare_prices", "arguments": {"country": "الأردن", "product_name": "حواسيب محمولة"}, "think": "فهمت أنك ترغب في مقارنة أسعار الحواسيب المحمولة في الأردن. أداة \"compare_prices\" هي الأنسب لهذا الغرض لأنها مصممة لمقارنة الأسعار حسب المنتج والدولة. المدخلات المتوقعة هي: product_name=حواسيب محمولة و country=الأردن."}
+{"id": 38, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 39, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 40, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع general_knowledge ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 41, "tool_called": "translate_text", "arguments": {"target_language": "es", "text": "النص هذا"}, "think": "يبدو أن المستخدم يرغب في ترجمة نص إلى اللغة الإسبانية. أداة \"translate_text\" هي الأنسب لهذا الغرض لأنها مصممة خصيصًا لترجمة النصوص بين اللغات. المدخلات المتوقعة هي: text=النص هذا و target_language=Spanish."}
+{"id": 42, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 43, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع general_knowledge ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 44, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 45, "tool_called": "get_weather", "arguments": {"city": "المدينة المنورة", "days": 7.0}, "think": "يبدو أن المستخدم يرغب في معرفة حالة الطقس في المدينة المنورة لمدة أسبوع. أداة get_weather هي الأنسب لهذا الغرض لأنها توفر معلومات دقيقة عن الطقس لفترة محددة. المدخلات المتوقعة هي city=المدينة المنورة وdays=7."}
+{"id": 46, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع chitchat ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 47, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 48, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 49, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع ambiguous_underspecified ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 50, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع chitchat ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 51, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_traffic_violations ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 52, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 53, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 54, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 55, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع opinion ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 56, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 57, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 58, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 59, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 60, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 61, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 62, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع opinion ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 63, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع calculation_end_of_service ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 64, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 65, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 66, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع calculate_end_of_service ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 67, "tool_called": "search_hotels", "arguments": {"check_in": "2023-11-10", "check_out": "2023-11-15", "city": "مراكش"}, "think": "يبدو أن المستخدم يبحث عن معلومات حول الفنادق في مراكش خلال الفترة من 10 إلى 15 نوفمبر. أداة \"search_hotels\" هي الأنسب لهذا الغرض لأنها مصممة للبحث عن خيارات الإقامة في مواقع محددة. المدخلات المتوقعة هي: city=مراكش، check_in=2023-11-10، check_out=2023-11-15."}
+{"id": 68, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_insurance_coverage ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 69, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 70, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع get_weather ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 71, "tool_called": "search_quran", "arguments": {"query": "الرحمة"}, "think": "يبدو أن المستخدم يبحث عن آية في القرآن تحتوي على كلمة \"الرحمة\". أداة search_quran هي الأنسب لهذا الغرض لأنها مصممة للبحث في نصوص القرآن. المدخلات المتوقعة هي query=الرحمة."}
+{"id": 72, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 73, "tool_called": "calculate_zakat", "arguments": {"amount": 50000.0, "currency": "EGP", "type": "cash"}, "think": "يبدو أن المستخدم يريد حساب زكاة المال على مبلغ 50000 جنيه. أداة \"calculate_zakat\" هي الأنسب لهذا الغرض لأنها مصممة خصيصًا لحساب الزكاة بناءً على نوع المال والمبلغ. المدخلات المتوقعة هي: type=مال، amount=50000.0، currency=EGP."}
+{"id": 74, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع compare_prices ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 75, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 76, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_insurance_coverage ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 77, "tool_called": "translate_text", "arguments": {"target_language": "en", "text": "صباح الخير"}, "think": "فهمت أن المستخدم يرغب في ترجمة عبارة \"صباح الخير\" إلى الإنجليزية. أداة \"translate_text\" هي الأنسب لهذا الغرض لأنها مصممة لترجمة النصوص بين اللغات. المدخلات المتوقعة هي: text=صباح الخير و target_language=en."}
+{"id": 78, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 79, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 80, "tool_called": "search_quran", "arguments": {"query": "آية الكرسي"}, "think": "يبدو أن المستخدم يرغب في العثور على آية الكرسي في القرآن. أداة \"search_quran\" هي الأنسب لهذا الغرض لأنها مصممة للبحث عن نصوص معينة في القرآن. المدخلات المتوقعة هي query=آية الكرسي."}
+{"id": 81, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 82, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 83, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع general_knowledge ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 84, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع opinion ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 85, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع general_knowledge ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 86, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع weather ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 87, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 88, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع book_doctor_appointment ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 89, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 90, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع general_knowledge ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 91, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 92, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع general_knowledge ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 93, "tool_called": "calculate_end_of_service", "arguments": {"salary": 3000.0, "termination_type": "dismissal", "years_of_service": 5.0}, "think": "يبدو أن المستخدم يريد حساب مكافأة نهاية الخدمة بناءً على راتبه ومدة خدمته. أداة \"calculate_end_of_service\" هي الأنسب لهذا الغرض لأنها مصممة لحساب المكافآت بناءً على المعطيات المقدمة. المدخلات المتوقعة هي salary=3000.0 وyears_of_service=5.0 وtermination_type=طرد."}
+{"id": 94, "tool_called": "search_hotels", "arguments": {"check_in": "2023-11-30", "check_out": "2023-12-05", "city": "بيروت"}, "think": "يبدو أن المستخدم يبحث عن فندق في بيروت خلال فترة محددة من 30 نوفمبر إلى 5 ديسمبر. أداة \"search_hotels\" هي الأنسب لهذا الغرض لأنها مصممة للبحث عن خيارات الإقامة بناءً على المدينة وتواريخ الوصول والمغادرة. المدخلات المتوقعة هي: city=بيروت، check_in=2023-11-30، check_out=2023-12-05."}
+{"id": 95, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 96, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 97, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 98, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع convert_currency ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 99, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_insurance_coverage ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 100, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 101, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_iqama_status ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 102, "tool_called": "convert_currency", "arguments": {"amount": 3000.0, "from_currency": "SAR", "to_currency": "USD"}, "think": "يبدو أن المستخدم يرغب في تحويل مبلغ 3000 ريال سعودي إلى دولار أمريكي. أداة \"convert_currency\" هي الأنسب لهذا الغرض لأنها مصممة لتحويل العملات بسهولة ودقة. المدخلات المتوقعة هي: amount=3000.0، from_currency=SAR، to_currency=USD."}
+{"id": 103, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 104, "tool_called": "translate_text", "arguments": {"target_language": "fr", "text": "شكراً"}, "think": "فهمت أن المستخدم يبحث عن ترجمة كلمة \"شكراً\" إلى اللغة الفرنسية. أداة \"translate_text\" هي الأنسب لهذا الغرض لأنها مصممة لترجمة الكلمات بين اللغات. المدخلات المتوقعة هي: text=شكراً و target_language=fr."}
+{"id": 105, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 106, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع general_knowledge ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 107, "tool_called": "get_weather", "arguments": {"city": "البحرين", "days": 7.0}, "think": "فهمت أن المستخدم يريد معرفة حالة الطقس في البحرين للأسبوع المقبل. أداة get_weather هي الأنسب لأنها توفر معلومات دقيقة عن الطقس في المدن. المدخلات المتوقعة هي city=البحرين و days=7."}
+{"id": 108, "tool_called": "get_air_quality", "arguments": {"city": "مسقط"}, "think": "يبدو أن المستخدم يرغب في معرفة جودة الهواء في مدينة مسقط. أداة get_air_quality هي الأنسب لهذا الغرض لأنها توفر معلومات دقيقة حول جودة الهواء في المدن. المدخلات المتوقعة هي city=مسقط."}
+{"id": 109, "tool_called": "check_iqama_status", "arguments": {"iqama_number": "234567890"}, "think": "يبدو أن المستخدم يريد معرفة المدة المتبقية على صلاحية إقامته بناءً على رقم الإقامة المقدم. أداة \"check_iqama_status\" هي الأنسب لهذا الغرض لأنها مصممة للتحقق من حالة الإقامة. المدخلات المتوقعة هي iqama_number=234567890."}
+{"id": 110, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 111, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 112, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع weather ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 113, "tool_called": "translate_text", "arguments": {"target_language": "en", "text": "أنا أحب القهوة"}, "think": "فهمت أنك ترغب في ترجمة جملة \"أنا أحب القهوة\" إلى الإنجليزية. أداة \"translate_text\" هي الأنسب لهذا الغرض لأنها مصممة لترجمة النصوص بين اللغات. المدخلات المتوقعة هي: text=أنا أحب القهوة و target_language=English."}
+{"id": 114, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 115, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 116, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 117, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 118, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_insurance_coverage ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 119, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع get_air_quality ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 120, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع get_qibla_direction ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 121, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 122, "tool_called": "book_doctor_appointment", "arguments": {"city": "الرياض", "date": "بعد باجر", "specialty": "عيون"}, "think": "فهمت أنك ترغب في حجز موعد مع طبيب عيون في الرياض بعد يومين. أداة \"book_doctor_appointment\" هي الأنسب لأن لديها القدرة على تحديد التخصص والموقع والتاريخ المطلوب. المدخلات المتوقعة هي: specialty=عيون، city=الرياض، date=بعد باجر."}
+{"id": 123, "tool_called": "get_air_quality", "arguments": {"city": "دمنهور"}, "think": "يبدو أن المستخدم يسأل عن جودة الهواء في مدينة دمنهور. أداة get_air_quality هي الأنسب لأنها توفر معلومات دقيقة حول جودة الهواء في المواقع المحددة. المدخلات المتوقعة هي city=دمنهور."}
+{"id": 124, "tool_called": "convert_currency", "arguments": {"amount": 500.0, "from_currency": "USD", "to_currency": "SYP"}, "think": "يبدو أن المستخدم يرغب في تحويل مبلغ 500 دولار أمريكي إلى ليرة سورية. أداة \"convert_currency\" هي الأنسب لهذا الغرض لأنها مصممة لتحويل العملات بسهولة وسرعة. المدخلات المتوقعة هي: amount=500.0، from_currency=USD، to_currency=SYP."}
+{"id": 125, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع opinion ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 126, "tool_called": "check_visa_status", "arguments": {"visa_number": "123456"}, "think": "يبدو أن المستخدم يريد معرفة حالة تأشيرته باستخدام رقم التأشيرة. الأداة الأنسب لذلك هي check_visa_status، حيث توفر معلومات دقيقة حول حالة التأشيرات. المدخلات المتوقعة هي visa_number=123456."}
+{"id": 127, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع calculate_customs ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 128, "tool_called": "get_air_quality", "arguments": {"city": "الرباط"}, "think": "يبدو أن المستخدم يرغب في معرفة معلومات حول جودة الهواء في مدينة الرباط. أداة get_air_quality هي الأنسب لهذا الغرض لأنها مصممة لتوفير بيانات جودة الهواء حسب المدينة. المدخلات المتوقعة هي city=الرباط."}
+{"id": 129, "tool_called": "check_iqama_status", "arguments": {"iqama_number": "7891011"}, "think": "يبدو أن المستخدم يرغب في معرفة حالة إقامته برقم 7891011. أداة \"check_iqama_status\" هي الأنسب لهذا الغرض لأنها مصممة للتحقق من حالة الإقامة. المدخلات المتوقعة هي iqama_number=7891011."}
+{"id": 130, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 131, "tool_called": "search_quran", "arguments": {"query": "الرحمة"}, "think": "يبدو أن المستخدم يبحث عن آية تتعلق بالرحمة في القرآن. أداة search_quran هي الأنسب لهذا الغرض لأنها مصممة للبحث عن آيات معينة بناءً على كلمات مفتاحية. المدخلات المتوقعة هي query=الرحمة."}
+{"id": 132, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 133, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 134, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 135, "tool_called": "search_quran", "arguments": {"query": "آية الكرسي"}, "think": "يبدو أن المستخدم يرغب في الحصول على تفسير لآية الكرسي. أداة \"search_quran\" هي الأنسب لهذا الغرض لأنها مخصصة للبحث في القرآن الكريم وتفسير الآيات. المدخلات المتوقعة هي query=آية الكرسي."}
+{"id": 136, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع get_air_quality ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 137, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 138, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع convert_currency ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 139, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 140, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع chitchat ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 141, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 142, "tool_called": "search_hotels", "arguments": {"check_in": "2023-12-10", "check_out": "2023-12-15", "city": "مسقط", "guests": 2.0}, "think": "يبدو أن المستخدم يبحث عن فندق في مسقط لشخصين خلال فترة محددة من 10 ديسمبر إلى 15 ديسمبر. أداة \"search_hotels\" هي الأنسب لهذا الغرض لأنها مصممة للبحث عن خيارات الإقامة بناءً على المدينة وتواريخ الوصول والمغادرة وعدد الضيوف. المدخلات المتوقعة هي: city=مسقط، check_in=2023-12-10، check_out=2023-12-15، guests=2."}
+{"id": 143, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 144, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 145, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_iqama_status ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 146, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع get_qibla_direction ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 147, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 148, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 149, "tool_called": "transfer_money", "arguments": {"amount": 5000.0, "currency": "AED", "recipient_iban": "AE070331234567890123456", "recipient_name": "أحمد"}, "think": "يبدو أن المستخدم يرغب في تحويل مبلغ 5000 درهم إلى حساب شخص معين في الإمارات. أداة \"transfer_money\" هي الأنسب لهذا الغرض لأنها مصممة لإجراء عمليات تحويل الأموال. المدخلات المتوقعة هي: amount=5000.0، currency=AED، recipient_name=أحمد، recipient_iban=AE070331234567890123456."}
+{"id": 150, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 151, "tool_called": "translate_text", "arguments": {"target_language": "en", "text": "أنا بحب الكشري"}, "think": "فهمت أنك ترغب في ترجمة جملة \"أنا بحب الكشري\" إلى الإنجليزية. أداة \"translate_text\" هي الأنسب لهذا الغرض لأنها مصممة لترجمة النصوص بين اللغات. المدخلات المتوقعة هي: text=أنا بحب الكشري و target_language=English."}
+{"id": 152, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع calculate_customs ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 153, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 154, "tool_called": "currency_conversion", "arguments": {"amount": 500.0, "from_currency": "EGP", "to_currency": "CAD"}, "think": "يبدو أن المستخدم يرغب في تحويل مبلغ 500 جنيه مصري إلى دولار كندي. أداة \"currency_conversion\" هي الأنسب لهذا الغرض لأنها مصممة لتحويل العملات بين مختلف الأنواع. المدخلات المتوقعة هي: amount=500.0، from_currency=EGP، to_currency=CAD."}
+{"id": 155, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع calculate_customs ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 156, "tool_called": "search_hotels", "arguments": {"check_in": "2023-11-03", "check_out": "2023-11-07", "city": "بيروت"}, "think": "يبحث المستخدم عن أفضل الفنادق في بيروت خلال الفترة من 3 إلى 7 نوفمبر. أداة \"search_hotels\" هي الأنسب لأنها مصممة للبحث عن خيارات الإقامة بناءً على المدينة وتواريخ الوصول والمغادرة. المدخلات المتوقعة هي: city=بيروت، check_in=2023-11-03، check_out=2023-11-07."}
+{"id": 157, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 158, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 159, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_insurance_coverage ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 160, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 161, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 162, "tool_called": "search_medications", "arguments": {"medication_name": "فيوسيدين"}, "think": "يبدو أن المستخدم يبحث عن كريم فيوسيدين. أداة \"search_medications\" هي الأنسب لأنها مصممة للبحث عن الأدوية المتاحة. المدخلات المتوقعة هي medication_name=فيوسيدين."}
+{"id": 163, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_visa_status ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 164, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع calculate_end_of_service ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 165, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع calculation ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 166, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 167, "tool_called": "transfer_money", "arguments": {"amount": 200.0, "currency": "BHD", "recipient_iban": "BH67BH00000001234567890", "recipient_name": "محمد أحمد"}, "think": "يبدو أن المستخدم يرغب في تحويل مبلغ 200 دينار بحريني إلى شخص يدعى محمد أحمد عبر حسابه المصرفي. أداة transfer_money هي الأنسب لهذا الغرض لأنها مصممة لإجراء عمليات تحويل الأموال. المدخلات المتوقعة هي: amount=200.0، currency=BHD، recipient_name=محمد أحمد، recipient_iban=BH67BH00000001234567890."}
+{"id": 168, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 169, "tool_called": "check_insurance_coverage", "arguments": {"insurance_number": "123456", "procedure": "عملية القلب"}, "think": "يبدو أن المستخدم يسأل عن تغطية التأمين لعملية القلب باستخدام رقم تأمينه. الأداة الأنسب لهذا الاستفسار هي check_insurance_coverage لأنها مصممة للتحقق من تغطية التأمين للإجراءات الطبية. المدخلات المتوقعة هي insurance_number=123456 وprocedure=عملية القلب."}
+{"id": 170, "tool_called": "book_doctor_appointment", "arguments": {"city": "مكة", "date": "الأربعاء", "specialty": "أمراض جلدية"}, "think": "فهمت أنك بحاجة إلى استشارة مع طبيب أمراض جلدية في مكة يوم الأربعاء. أداة \"book_doctor_appointment\" هي الأنسب لأن لديها القدرة على حجز مواعيد مع الأطباء حسب التخصص والموقع والتاريخ. المدخلات المتوقعة هي: specialty=أمراض جلدية، city=مكة، date=الأربعاء."}
+{"id": 171, "tool_called": "search_quran", "arguments": {"query": "الصبر"}, "think": "يبدو أن المستخدم يبحث عن مواضع ذكر الصبر في القرآن. أداة search_quran هي الأنسب لهذا الغرض لأنها مصممة للبحث في نصوص القرآن. المدخلات المتوقعة هي query=الصبر."}
+{"id": 172, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 173, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 174, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_visa_status ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 175, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_traffic_violations ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 176, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع opinion ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 177, "tool_called": "calculate_end_of_service", "arguments": {"salary": 3000.0, "termination_type": "resignation", "years_of_service": 5.0}, "think": "يبدو أن المستخدم يريد حساب مكافأة نهاية الخدمة بناءً على راتبه وسنوات عمله ونوع الإنهاء. أداة \"calculate_end_of_service\" هي الأنسب لهذا الغرض لأنها مصممة خصيصًا لحساب المكافآت وفقًا للمعايير المحددة. المدخلات المتوقعة هي salary=3000.0، years_of_service=5.0، termination_type=استقالة."}
+{"id": 178, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 179, "tool_called": "calculate_customs", "arguments": {"category": "جهاز كمبيوتر محمول", "destination_country": "السعودية", "product_value": 2000.0}, "think": "فهمت أن المستخدم يريد معرفة قيمة الجمارك على جهاز كمبيوتر محمول في السعودية. أداة \"calculate_customs\" هي الأنسب لأنها مصممة لحساب الجمارك بناءً على قيمة المنتج وفئته والدولة المستهدفة. المدخلات المتوقعة هي: product_value=2000.0، category=جهاز كمبيوتر محمول، destination_country=السعودية."}
+{"id": 180, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 181, "tool_called": "check_insurance_coverage", "arguments": {"insurance_number": "11223344", "procedure": "العلاج الطبيعي"}, "think": "يبدو أن المستخدم يرغب في التحقق من تغطية التأمين لعملية العلاج الطبيعي باستخدام رقم التأمين الخاص به. أداة \"check_insurance_coverage\" هي الأنسب لهذا الغرض لأنها مصممة خصيصًا لفحص تغطية التأمين. المدخلات المتوقعة هي insurance_number=11223344 وprocedure=العلاج الطبيعي."}
+{"id": 182, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع get_air_quality ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 183, "tool_called": "calculate_customs", "arguments": {"category": "إلكترونيات", "destination_country": "الإمارات", "product_value": 800.0}, "think": "فهمت أن المستخدم يسأل عن قيمة الجمارك المفروضة على آلة تصوير بقيمة 800 دولار في الإمارات. أداة \"calculate_customs\" هي الأنسب لأنها مصممة لحساب الجمارك بناءً على قيمة المنتج وفئته والدولة المستهدفة. المدخلات المتوقعة هي: product_value=800.0، category=إلكترونيات، destination_country=الإمارات."}
+{"id": 184, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 185, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_iqama_status ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 186, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 187, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 188, "tool_called": "calculate_end_of_service", "arguments": {"salary": 6000.0, "termination_type": "dismissal", "years_of_service": 10.0}, "think": "يبدو أن المستخدم يرغب في حساب مكافأة نهاية الخدمة بناءً على راتبه ومدة خدمته. أداة \"calculate_end_of_service\" هي الأنسب لهذا الغرض لأنها مصممة خصيصًا لحساب المكافآت بناءً على المعطيات المقدمة. المدخلات المتوقعة هي salary=6000.0 وyears_of_service=10.0 وtermination_type=طرد."}
+{"id": 189, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 190, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_insurance_coverage ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 191, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_traffic_violations ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 192, "tool_called": "get_air_quality", "arguments": {"city": "الكويت"}, "think": "يبدو أن المستخدم يرغب في معرفة جودة الهواء في الكويت في الوقت الحالي. أداة get_air_quality هي الأنسب لهذا الغرض لأنها توفر معلومات دقيقة حول جودة الهواء في المدن. المدخلات المتوقعة هي city=الكويت."}
+{"id": 193, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 194, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 195, "tool_called": "check_visa_status", "arguments": {"visa_number": "1234567890"}, "think": "يبدو أن المستخدم يرغب في التحقق من حالة تأشيرته باستخدام رقم التأشيرة. الأداة الأنسب لذلك هي check_visa_status، حيث توفر معلومات دقيقة حول حالة التأشيرات. المدخلات المتوقعة هي visa_number=1234567890."}
+{"id": 196, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_traffic_violations ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 197, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع general_knowledge ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 198, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 199, "tool_called": "get_weather", "arguments": {"city": "حلب"}, "think": "يبدو أن المستخدم يريد معرفة درجة الحرارة الحالية في مدينة حلب. أداة get_weather هي الأنسب لهذا الغرض لأنها توفر معلومات دقيقة عن الطقس. المدخلات المتوقعة هي city=حلب."}
+{"id": 200, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع general_knowledge ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 201, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 202, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 203, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع calculate_customs ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 204, "tool_called": "check_insurance_coverage", "arguments": {"insurance_number": "654321", "procedure": "عملية التجميل"}, "think": "يبدو أن المستخدم يرغب في معرفة ما إذا كان التأمين يغطي عملية التجميل برقم التأمين المحدد. أداة \"check_insurance_coverage\" هي الأنسب لهذا الغرض لأنها مصممة للتحقق من تغطية التأمين للإجراءات الطبية. المدخلات المتوقعة هي insurance_number=654321 وprocedure=عملية التجميل."}
+{"id": 205, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 206, "tool_called": "calculate_customs", "arguments": {"category": "لابتوب", "destination_country": "السعودية", "product_value": 2500.0}, "think": "يبدو أن المستخدم يريد حساب جمارك جهاز اللابتوب الذي قيمته 2500 ريال سعودي. أداة \"calculate_customs\" هي الأنسب لهذا الغرض لأنها مصممة لحساب الجمارك بناءً على قيمة المنتج وفئته ووجهته. المدخلات المتوقعة هي: product_value=2500.0، category=لابتوب، destination_country=السعودية."}
+{"id": 207, "tool_called": "search_umrah_packages", "arguments": {"departure_city": "الإسكندرية", "num_persons": 5.0}, "think": "يبدو أن المستخدم يرغب في تنظيم عمرة لخمسة أفراد من مدينة الإسكندرية. أداة \"search_umrah_packages\" هي الأنسب لهذا الغرض لأنها مصممة للبحث عن باقات العمرة بناءً على عدد الأشخاص ومدينة المغادرة. المدخلات المتوقعة هي: departure_city=الإسكندرية وnum_persons=5."}
+{"id": 208, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع general_knowledge ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 209, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 210, "tool_called": "search_umrah_packages", "arguments": {"departure_city": "بيروت", "num_persons": 3.0}, "think": "يبدو أن المستخدم يبحث عن باقات عمرة من مدينة بيروت لثلاثة أشخاص. أداة \"search_umrah_packages\" هي الأنسب لأنها مصممة للبحث عن باقات العمرة بناءً على المدينة وعدد الأشخاص. المدخلات المتوقعة هي: departure_city=بيروت وnum_persons=3."}
+{"id": 211, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 212, "tool_called": "calculate_zakat", "arguments": {"amount": 5000.0, "currency": "ريال", "type": "cash"}, "think": "يبدو أن المستخدم يريد حساب قيمة زكاته على مبلغ 5000 ريال. أداة \"calculate_zakat\" هي الأنسب لهذا الغرض لأنها مصممة خصيصًا لحساب الزكاة بناءً على المبلغ والنوع. المدخلات المتوقعة هي: type=مال، amount=5000.0، currency=ريال."}
+{"id": 213, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_traffic_violations ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 214, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع chitchat ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 215, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_traffic_violations ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 216, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 217, "tool_called": "calculate_zakat", "arguments": {"amount": 5000.0, "currency": "EGP", "type": "cash"}, "think": "فهمت أنك تريد معرفة كيفية حساب زكاة المال على مبلغ 5000 جنيه مصري. أداة \"calculate_zakat\" هي الأنسب لهذا الغرض لأنها مصممة لحساب الزكاة بناءً على المبلغ والنوع. المدخلات المتوقعة هي: type=مال، amount=5000.0، currency=EGP."}
+{"id": 218, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع opinion ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 219, "tool_called": "search_hotels", "arguments": {"check_in": "2023-11-07", "check_out": "2023-11-10", "city": "الدوحة", "guests": 3.0}, "think": "فهمت أنك تبحث عن فندق في الدوحة لفترة محددة لثلاثة أشخاص. أداة \"search_hotels\" هي الأنسب لأنها مصممة للبحث عن الفنادق بناءً على المدينة وتواريخ الإقامة وعدد الضيوف. المدخلات المتوقعة هي: city=الدوحة، check_in=2023-11-07، check_out=2023-11-10، guests=3."}
+{"id": 220, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 221, "tool_called": "check_insurance_coverage", "arguments": {"insurance_number": "123456", "procedure": "عملية الولادة"}, "think": "يبدو أن المستخدم يسأل عن تغطية التأمين لعملية الولادة برقم التأمين المحدد. أداة \"check_insurance_coverage\" هي الأنسب لأنها مصممة للتحقق من تغطية التأمين للإجراءات الطبية. المدخلات المتوقعة هي insurance_number=123456 وprocedure=عملية الولادة."}
+{"id": 222, "tool_called": "calculate_customs", "arguments": {"category": "لابتوب", "destination_country": "السعودية", "product_value": 2000.0}, "think": "فهمت أن المستخدم يريد معرفة تكلفة الجمارك لجهاز لابتوب قيمته 2000 دولار في السعودية. أداة \"calculate_customs\" هي الأنسب لأنها مصممة لحساب الرسوم الجمركية بناءً على قيمة المنتج وفئته والدولة المستهدفة. المدخلات المتوقعة هي: product_value=2000.0، category=لابتوب، destination_country=السعودية."}
+{"id": 223, "tool_called": "calculate_end_of_service", "arguments": {"salary": 8000.0, "termination_type": "resignation", "years_of_service": 10.0}, "think": "فهمت أن المستخدم يسأل عن حساب مكافأة نهاية الخدمة لموظف براتب 8000 ريال ومدة خدمة 10 سنوات. أداة \"calculate_end_of_service\" هي الأنسب لأنها مصممة لحساب مكافآت نهاية الخدمة بناءً على الراتب ومدة الخدمة. المدخلات المتوقعة هي salary=8000.0 وyears_of_service=10.0 وtermination_type=استقالة."}
+{"id": 224, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 225, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 226, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 227, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع get_air_quality ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 228, "tool_called": "search_medications", "arguments": {"medication_name": "سكري"}, "think": "يبحث المستخدم عن معلومات حول الأدوية المتاحة لعلاج مرض السكري. أداة \"search_medications\" هي الأنسب لأنها مصممة للبحث عن الأدوية بناءً على اسم الدواء. المدخلات المتوقعة هي medication_name=سكري."}
+{"id": 229, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 230, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 231, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 232, "tool_called": "get_weather", "arguments": {"city": "المنصورة", "days": 2.0}, "think": "يبدو أن المستخدم يريد معرفة حالة الطقس في المنصورة اليوم وغدًا. أداة get_weather هي الأنسب لهذا الغرض لأنها توفر معلومات دقيقة عن الطقس في المدن. المدخلات المتوقعة هي city=المنصورة وdays=2."}
+{"id": 233, "tool_called": "check_visa_status", "arguments": {"visa_number": "12345"}, "think": "يبدو أن المستخدم يسأل عن حالة تأشيرته باستخدام رقم محدد. أداة \"check_visa_status\" هي الأنسب لهذا الغرض لأنها مصممة للتحقق من وضع التأشيرات. المدخلات المتوقعة هي visa_number=12345."}
+{"id": 234, "tool_called": "convert_currency", "arguments": {"amount": 150.0, "from_currency": "EUR", "to_currency": "EGP"}, "think": "يبدو أن المستخدم يرغب في تحويل مبلغ 150 يورو إلى الجنيه المصري. أداة \"convert_currency\" هي الأنسب لهذا الغرض لأنها مصممة لتحويل العملات بسهولة. المدخلات المتوقعة هي: amount=150.0، from_currency=EUR، to_currency=EGP."}
+{"id": 235, "tool_called": "search_umrah_packages", "arguments": {"departure_city": "القاهرة", "num_persons": 5.0}, "think": "فهمت أنك تبحث عن باقة عمرة من القاهرة لخمسة أشخاص. أداة \"search_umrah_packages\" هي الأنسب لأنها مصممة للبحث عن باقات العمرة بناءً على المدينة وعدد الأشخاص. المدخلات المتوقعة هي: departure_city=القاهرة وnum_persons=5."}
+{"id": 236, "tool_called": "search_medications", "arguments": {"medication_name": "بروفين"}, "think": "يبدو أن المستخدم يرغب في البحث عن معلومات حول دواء البروفين. أداة \"search_medications\" هي الأنسب لهذا الغرض لأنها مصممة للبحث عن الأدوية ومعلوماتها. المدخلات المتوقعة هي medication_name=بروفين."}
+{"id": 237, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 238, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 239, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 240, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع calculate_end_of_service ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 241, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 242, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع compare_prices ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 243, "tool_called": "calculate_end_of_service", "arguments": {"salary": 7000.0, "termination_type": "end_of_contract", "years_of_service": 5.0}, "think": "فهمت أنك ترغب في حساب مكافأة نهاية الخدمة بناءً على راتبك ومدة خدمتك ونوع إنهاء العقد. أداة \"calculate_end_of_service\" هي الأنسب لهذا الغرض لأنها مصممة خصيصًا لحساب مكافآت نهاية الخدمة وفقًا للمعايير المحددة. المدخلات المتوقعة هي salary=7000.0، years_of_service=5.0، termination_type=إنهاء عقد."}
+{"id": 244, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_iqama_status ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 245, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 246, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 247, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 248, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 249, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 250, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 251, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 252, "tool_called": "check_traffic_violations", "arguments": {"id_number": "6789012345"}, "think": "يبدو أن المستخدم يرغب في معرفة المخالفات المرورية المسجلة عليه باستخدام رقم الهوية. أداة \"check_traffic_violations\" هي الأنسب لهذا الغرض لأنها مصممة للتحقق من المخالفات المرورية بناءً على معلومات الهوية. المدخلات المتوقعة هي id_number=6789012345."}
+{"id": 253, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 254, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 255, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 256, "tool_called": "get_qibla_direction", "arguments": {"city": "طنجة"}, "think": "المستخدم يسأل عن اتجاه القبلة في مدينة طنجة. أداة get_qibla_direction هي الأنسب لأنها مصممة لتحديد اتجاه القبلة بناءً على الموقع الجغرافي. المدخلات المتوقعة هي city=طنجة."}
+{"id": 257, "tool_called": "search_quran", "arguments": {"query": "الصبر"}, "think": "يبدو أن المستخدم يبحث عن آية في القرآن تتعلق بالصبر. أداة \"search_quran\" هي الأنسب لهذا الغرض لأنها مصممة للبحث في نصوص القرآن. المدخلات المتوقعة هي query=الصبر."}
+{"id": 258, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 259, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 260, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 261, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 262, "tool_called": "convert_currency", "arguments": {"amount": 1.0, "from_currency": "KWD", "to_currency": "USD"}, "think": "يبدو أن المستخدم يرغب في معرفة سعر جوال iPhone 13 في الكويت. أداة convert_currency هي الأنسب لهذا الغرض لأنها توفر معلومات دقيقة حول أسعار المنتجات في مختلف البلدان. المدخلات المتوقعة هي: amount=1.0، from_currency=KWD، to_currency=USD."}
+{"id": 263, "tool_called": "book_doctor_appointment", "arguments": {"city": "الإسكندرية", "date": "بكرة", "specialty": "قلب"}, "think": "فهمت أنك ترغب في حجز موعد مع دكتور قلب في الإسكندرية غدًا. أداة \"book_doctor_appointment\" هي الأنسب لهذا الغرض لأنها مصممة لتسهيل عملية حجز المواعيد الطبية. المدخلات المتوقعة هي: specialty=قلب، city=الإسكندرية، date=بكرة."}
+{"id": 264, "tool_called": "compare_prices", "arguments": {"country": "الإمارات", "product_name": "بلايستيشن"}, "think": "يبدو أن المستخدم يرغب في مقارنة أسعار البلايستيشن في الإمارات. أداة \"compare_prices\" هي الأنسب لهذا الغرض لأنها مصممة خصيصًا لمقارنة الأسعار للمنتجات المختلفة في دول معينة. المدخلات المتوقعة هي: product_name=بلايستيشن و country=الإمارات."}
+{"id": 265, "tool_called": "convert_currency", "arguments": {"amount": 75.0, "from_currency": "TND", "to_currency": "دولار"}, "think": "يبدو أن المستخدم يريد معرفة كيفية تحويل 75 دينار تونسي إلى دولار أمريكي. أداة convert_currency هي الأنسب لهذا الغرض لأنها مصممة لتحويل العملات بسهولة. المدخلات المتوقعة هي: amount=75.0، from_currency=دينار تونسي، to_currency=دولار."}
+{"id": 266, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 267, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 268, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 269, "tool_called": "check_traffic_violations", "arguments": {"id_number": "223456789"}, "think": "يبدو أن المستخدم يرغب في معرفة المخالفات المرورية المرتبطة برقم بطاقته. أداة \"check_traffic_violations\" هي الأنسب لهذا الغرض لأنها مصممة للتحقق من المخالفات المرورية بناءً على رقم الهوية. المدخلات المتوقعة هي id_number=223456789."}
+{"id": 270, "tool_called": "get_weather", "arguments": {"city": "صفاقس"}, "think": "يبدو أن المستخدم يريد معرفة حالة الطقس في صفاقس اليوم. أداة get_weather هي الأنسب لهذا الغرض لأنها توفر معلومات دقيقة عن الطقس في المدن. المدخلات المتوقعة هي city=صفاقس."}
+{"id": 271, "tool_called": "translate_text", "arguments": {"target_language": "fr", "text": "كيف حالك"}, "think": "فهمت أنك ترغب في ترجمة عبارة \"كيف حالك\" إلى اللغة الفرنسية. أداة \"translate_text\" هي الأنسب لهذا الغرض لأنها مصممة لترجمة النصوص بين اللغات المختلفة. المدخلات المتوقعة هي: text=كيف حالك و target_language=fr."}
+{"id": 272, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 273, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_visa_status ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 274, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 275, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 276, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 277, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع exchange ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 278, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع get_weather ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 279, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 280, "tool_called": "search_hotels", "arguments": {"check_in": "2023-12-05", "check_out": "2023-12-10", "city": "دمشق"}, "think": "يبحث المستخدم عن فنادق في دمشق خلال فترة محددة من 5 ديسمبر إلى 10 ديسمبر. أداة \"search_hotels\" هي الأنسب لأنها مصممة للبحث عن خيارات الإقامة بناءً على المدينة وتواريخ الوصول والمغادرة. المدخلات المتوقعة هي: city=دمشق، check_in=2023-12-05، check_out=2023-12-10."}
+{"id": 281, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع general_knowledge ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 282, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_insurance_coverage ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 283, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع weather ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 284, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع general_knowledge ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 285, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 286, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 287, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع general_knowledge ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 288, "tool_called": "check_insurance_coverage", "arguments": {"insurance_number": "123456789", "procedure": "عملية القلب"}, "think": "يبدو أن المستخدم يسأل عن تغطية شركة التأمين لإجراء عملية القلب. أداة \"check_insurance_coverage\" هي الأنسب لأنها مصممة للتحقق من تغطية التأمين لإجراءات طبية محددة. المدخلات المتوقعة هي insurance_number=123456789 وprocedure=عملية القلب."}
+{"id": 289, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 290, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 291, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 292, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 293, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_traffic_violations ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 294, "tool_called": "search_hotels", "arguments": {"check_in": "2023-11-01", "check_out": "2023-11-05", "city": "أبوظبي", "guests": 2.0}, "think": "فهمت أنك تبحث عن فنادق متاحة في أبوظبي لفترة محددة لشخصين. أداة \"search_hotels\" هي الأنسب لأنها مصممة للبحث عن خيارات الإقامة بناءً على المدينة وتواريخ الوصول والمغادرة وعدد الضيوف. المدخلات المتوقعة هي: city=أبوظبي، check_in=2023-11-01، check_out=2023-11-05، guests=2."}
+{"id": 295, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_insurance_coverage ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 296, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع compare_prices ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 297, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 298, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع weather ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 299, "tool_called": "order_food", "arguments": {"items": "وجبة سبايسي, اثنين بيبسي", "restaurant": "كنتاكي"}, "think": "يبدو أن المستخدم يرغب في طلب وجبة من مطعم كنتاكي. أداة \"order_food\" هي الأنسب لهذا الطلب لأنها مصممة لتسهيل عملية طلب الطعام من المطاعم. المدخلات المتوقعة هي: restaurant=كنتاكي وitems=وجبة سبايسي, اثنين بيبسي."}
+{"id": 300, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 301, "tool_called": "search_medications", "arguments": {"medication_name": "أوجمنتين"}, "think": "يبدو أن المستخدم يبحث عن معلومات حول دواء أوجمنتين في المدينة المنورة. أداة \"search_medications\" هي الأنسب لهذا الغرض لأنها مصممة للبحث عن الأدوية في مواقع محددة. المدخلات المتوقعة هي medication_name=أوجمنتين."}
+{"id": 302, "tool_called": "check_iqama_status", "arguments": {"iqama_number": "1234567890"}, "think": "يبدو أن المستخدم يرغب في التحقق من صلاحية إقامته باستخدام رقم الإقامة المحدد. أداة \"check_iqama_status\" هي الأنسب لهذا الغرض لأنها مصممة خصيصًا لفحص حالة الإقامة. المدخلات المتوقعة هي iqama_number=1234567890."}
+{"id": 303, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع inquiries ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 304, "tool_called": "get_qibla_direction", "arguments": {"city": "بيروت"}, "think": "فهمت أنك تبحث عن اتجاه القبلة من مدينة بيروت. أداة get_qibla_direction هي الأنسب لأنها مصممة لتحديد اتجاه القبلة بناءً على الموقع الجغرافي. المدخلات المتوقعة هي city=بيروت."}
+{"id": 305, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 306, "tool_called": "calculate_zakat", "arguments": {"amount": 4.0, "currency": "دينار", "type": "fitr"}, "think": "فهمت أنك ترغب في حساب زكاة الفطر لأربعة أشخاص بالدينار. أداة \"calculate_zakat\" هي الأنسب لهذا الغرض لأنها مصممة لحساب الزكاة بناءً على عدد الأشخاص والمبلغ المطلوب. المدخلات المتوقعة هي: type=الفطر، amount=4.0، currency=دينار."}
+{"id": 307, "tool_called": "translate_text", "arguments": {"target_language": "de", "text": "المقال"}, "think": "فهمت أنك ترغب في ترجمة مقال إلى اللغة الألمانية. أداة \"translate_text\" هي الأنسب لهذا الغرض لأنها مصممة لترجمة النصوص بين اللغات المختلفة. المدخلات المتوقعة هي: text=المقال و target_language=de."}
+{"id": 308, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 309, "tool_called": "search_umrah_packages", "arguments": {"departure_city": "المدينة", "num_persons": 6.0}, "think": "يبحث المستخدم عن باقات عمرة لستة أشخاص في المدينة. أداة \"search_umrah_packages\" هي الأنسب لأنها مصممة للبحث عن باقات العمرة بناءً على عدد الأشخاص. المدخلات المتوقعة هي: departure_city=المدينة وnum_persons=6."}
+{"id": 310, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع exchange ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 311, "tool_called": "get_weather", "arguments": {"city": "مسقط"}, "think": "يبدو أن المستخدم يريد معرفة حالة الطقس الحالية في مدينة مسقط. أداة get_weather هي الأنسب لهذا الغرض لأنها توفر معلومات دقيقة عن الطقس في المدن. المدخلات المتوقعة هي city=مسقط."}
+{"id": 312, "tool_called": "convert_currency", "arguments": {"amount": 2000.0, "from_currency": "EGP", "to_currency": "BHD"}, "think": "يبدو أن المستخدم يرغب في تحويل 2000 جنيه مصري إلى دينار بحريني. أداة \"convert_currency\" هي الأنسب لهذا الغرض لأنها مصممة لتحويل العملات بين مختلف الأنواع. المدخلات المتوقعة هي: amount=2000.0، from_currency=EGP، to_currency=BHD."}
+{"id": 313, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_visa_status ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 314, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع calculate_end_of_service ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 315, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 316, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع calculation_end_of_service ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 317, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_iqama_status ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 318, "tool_called": "get_air_quality", "arguments": {"city": "دمشق"}, "think": "يبدو أن المستخدم يسأل عن جودة الهواء في مدينة دمشق. أداة get_air_quality هي الأنسب لأنها توفر معلومات دقيقة حول مستوى نظافة الهواء في المدن. المدخلات المتوقعة هي city=دمشق."}
+{"id": 319, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 320, "tool_called": "check_visa_status", "arguments": {"visa_number": "321098"}, "think": "يبدو أن المستخدم يريد معرفة حالة تأشيرته برقم 321098. أداة \"check_visa_status\" هي الأنسب لهذا الغرض لأنها مصممة للتحقق من حالة التأشيرات. المدخلات المتوقعة هي visa_number=321098."}
+{"id": 321, "tool_called": "search_hotels", "arguments": {"check_in": "2024-01-15", "check_out": "2024-01-20", "city": "أبوظبي", "guests": 4.0}, "think": "فهمت أنك تبحث عن فنادق في أبوظبي لفترة محددة لأربعة أشخاص. أداة \"search_hotels\" هي الأنسب لأنها مصممة للبحث عن خيارات الإقامة بناءً على المدينة وتواريخ الوصول والمغادرة وعدد الضيوف. المدخلات المتوقعة هي: city=أبوظبي، check_in=2024-01-15، check_out=2024-01-20، guests=4."}
+{"id": 322, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 323, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 324, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 325, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 326, "tool_called": "calculate_end_of_service", "arguments": {"salary": 7000.0, "termination_type": "dismissal", "years_of_service": 8.0}, "think": "فهمت أنك ترغب في حساب مكافأة نهاية الخدمة بناءً على راتبك وسنوات الخدمة وسبب الإنهاء. أداة \"calculate_end_of_service\" هي الأنسب لهذا الغرض لأنها مصممة خصيصًا لحساب مكافآت نهاية الخدمة وفقًا للمعايير المحددة. المدخلات المتوقعة هي salary=7000.0، years_of_service=8.0، termination_type=فصل."}
+{"id": 327, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 328, "tool_called": "book_doctor_appointment", "arguments": {"city": "فاس", "date": "الجمعة", "specialty": "الأطفال"}, "think": "فهمت أنك ترغب في حجز موعد مع طبيب أطفال في مدينة فاس يوم الجمعة. أداة \"book_doctor_appointment\" هي الأنسب لأن لديها القدرة على تحديد التخصص والموقع والتاريخ لحجز الموعد. المدخلات المتوقعة هي: specialty=الأطفال، city=فاس، date=الجمعة."}
+{"id": 329, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع general_knowledge ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 330, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 331, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 332, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 333, "tool_called": "get_air_quality", "arguments": {"city": "الكويت"}, "think": "يبدو أن المستخدم يرغب في معرفة جودة الهواء في الكويت. أداة get_air_quality هي الأنسب لهذا الغرض لأنها توفر معلومات دقيقة حول جودة الهواء في المدن. المدخلات المتوقعة هي city=الكويت."}
+{"id": 334, "tool_called": "search_umrah_packages", "arguments": {"departure_city": "مكة", "num_persons": 3.0}, "think": "يبدو أن المستخدم يبحث عن باقة عمرة في مكة لثلاثة أشخاص. أداة \"search_umrah_packages\" هي الأنسب لهذا الغرض لأنها مصممة للبحث عن باقات العمرة بناءً على عدد الأشخاص. المدخلات المتوقعة هي: departure_city=مكة وnum_persons=3."}
+{"id": 335, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع weather ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 336, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 337, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 338, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 339, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 340, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع general_knowledge ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 341, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 342, "tool_called": "get_weather", "arguments": {"city": "الأقصر"}, "think": "يبدو أن المستخدم يريد معرفة حالة الطقس في مدينة الأقصر اليوم. أداة get_weather هي الأنسب لهذا الغرض لأنها توفر معلومات دقيقة عن الطقس في المدن. المدخلات المتوقعة هي city=الأقصر."}
+{"id": 343, "tool_called": "translate_text", "arguments": {"target_language": "es", "text": "أصدقاء"}, "think": "فهمت أنك ترغب في ترجمة كلمة \"أصدقاء\" إلى اللغة الإسبانية. أداة \"translate_text\" هي الأنسب لهذا الغرض لأنها مصممة لترجمة النصوص بين اللغات. المدخلات المتوقعة هي: text=أصدقاء و target_language=es."}
+{"id": 344, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 345, "tool_called": "calculate_customs", "arguments": {"category": "لابتوب", "destination_country": "دبي", "product_value": 1000.0}, "think": "يبدو أن المستخدم يريد معرفة قيمة الجمرك على لابتوب سعره ١٠٠٠ دولار في دبي. أداة \"calculate_customs\" هي الأنسب لهذا الغرض لأنها مصممة لحساب الرسوم الجمركية بناءً على قيمة المنتج وفئته ووجهته. المدخلات المتوقعة هي: product_value=1000.0، category=لابتوب، destination_country=دبي."}
+{"id": 346, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_insurance_coverage ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 347, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 348, "tool_called": "calculate_zakat", "arguments": {"amount": 150.0, "currency": "SYP", "type": "gold"}, "think": "فهمت أنك ترغب في حساب زكاة الذهب الذي تملكه والذي يزن 150 جرام بالليرة السورية. أداة \"calculate_zakat\" هي الأنسب لهذا الغرض لأنها مصممة خصيصًا لحساب الزكاة بناءً على نوع المال ووزنه. المدخلات المتوقعة هي: type=ذهب، amount=150.0، currency=ليرة سورية."}
+{"id": 349, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 350, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع general_knowledge ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 351, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 352, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع calculate_customs ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 353, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع chitchat ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 354, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 355, "tool_called": "get_qibla_direction", "arguments": {"city": "الدمام"}, "think": "يبحث المستخدم عن اتجاه القبلة في مدينة الدمام. أداة get_qibla_direction هي الأنسب لأنها مصممة لتحديد اتجاه القبلة بناءً على الموقع الجغرافي. المدخلات المتوقعة هي city=الدمام."}
+{"id": 356, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 357, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 358, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 359, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 360, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_iqama_status ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 361, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 362, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_iqama_status ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 363, "tool_called": "search_umrah_packages", "arguments": {"departure_city": "جدة", "num_persons": 4.0}, "think": "يبدو أن المستخدم يرغب في معرفة ما إذا كانت هناك باقات عمرة لأربعة أشخاص متاحة في جدة. أداة \"search_umrah_packages\" هي الأنسب لهذا الغرض لأنها مصممة للبحث عن باقات العمرة بناءً على المدينة وعدد الأشخاص. المدخلات المتوقعة هي: departure_city=جدة وnum_persons=4."}
+{"id": 364, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_traffic_violations ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 365, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 366, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 367, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع general_knowledge ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 368, "tool_called": "check_iqama_status", "arguments": {"iqama_number": "00112233"}, "think": "يبدو أن المستخدم يسأل عن صلاحية إقامته باستخدام رقم الإقامة. الأداة الأنسب لهذا الغرض هي check_iqama_status، حيث يمكنها تقديم معلومات دقيقة حول حالة الإقامة. المدخلات المتوقعة هي iqama_number=00112233."}
+{"id": 369, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_iqama_status ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 370, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 371, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_iqama_status ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 372, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع weather ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 373, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 374, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_iqama_status ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 375, "tool_called": "search_umrah_packages", "arguments": {"departure_city": "القاهرة", "num_persons": 5.0}, "think": "يبدو أن المستخدم يرغب في معرفة باقات العمرة من القاهرة لخمسة أشخاص. أداة \"search_umrah_packages\" هي الأنسب لهذا الغرض لأنها مصممة للبحث عن باقات العمرة بناءً على المدينة وعدد الأشخاص. المدخلات المتوقعة هي: departure_city=القاهرة وnum_persons=5."}
+{"id": 376, "tool_called": "calculate_zakat", "arguments": {"amount": 5000.0, "currency": "ريال", "type": "cash"}, "think": "يبدو أن المستخدم يريد معرفة قيمة زكاة المال على مبلغ 5000 ريال. أداة \"calculate_zakat\" هي الأنسب لهذا الغرض لأنها مصممة لحساب زكاة المال بناءً على المبلغ المحدد. المدخلات المتوقعة هي: type=مال، amount=5000.0، currency=ريال."}
+{"id": 377, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 378, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 379, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 380, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 381, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 382, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_traffic_violations ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 383, "tool_called": "search_umrah_packages", "arguments": {"departure_city": "المنيا", "num_persons": 3.0}, "think": "يبدو أن المستخدم يبحث عن معلومات حول باقات العمرة من مدينة المنيا لثلاثة أشخاص. أداة \"search_umrah_packages\" هي الأنسب لهذا الغرض لأنها مصممة للبحث عن باقات العمرة بناءً على المدينة وعدد الأشخاص. المدخلات المتوقعة هي: departure_city=المنيا وnum_persons=3."}
+{"id": 384, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 385, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع opinion ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 386, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع weather ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 387, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع get_qibla_direction ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 388, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 389, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_iqama_status ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 390, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع chitchat ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 391, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 392, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 393, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 394, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 395, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 396, "tool_called": "check_iqama_status", "arguments": {"iqama_number": "987654321"}, "think": "يبدو أن المستخدم يرغب في التحقق من صلاحية إقامته باستخدام رقم الإقامة. الأداة الأنسب لهذه المهمة هي check_iqama_status، حيث توفر معلومات دقيقة حول حالة الإقامة. المدخلات المتوقعة هي iqama_number=987654321."}
+{"id": 397, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع chitchat ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 398, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 399, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 400, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 401, "tool_called": "get_weather", "arguments": {"city": "القاهرة"}, "think": "يبدو أن المستخدم يريد معرفة حالة الطقس في القاهرة اليوم. أداة get_weather هي الأنسب لهذا الغرض لأنها توفر معلومات دقيقة عن الطقس في المدن. المدخلات المتوقعة هي city=القاهرة."}
+{"id": 402, "tool_called": "check_insurance_coverage", "arguments": {"insurance_number": "555666777", "procedure": "فحص الدم"}, "think": "يبدو أن المستخدم يسأل عن تغطية تأمينه لفحص الدم برقم التأمين المحدد. أداة \"check_insurance_coverage\" هي الأنسب لأنها مصممة للتحقق من تغطية التأمين للإجراءات الطبية. المدخلات المتوقعة هي insurance_number=555666777 وprocedure=فحص الدم."}
+{"id": 403, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع chitchat ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 404, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_visa_status ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 405, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 406, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع general_knowledge ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 407, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 408, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 409, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع calculate_end_of_service ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 410, "tool_called": "calculate_zakat", "arguments": {"amount": 5000.0, "currency": "ريال", "type": "cash"}, "think": "يبدو أن المستخدم يريد حساب زكاة مبلغ 5000 ريال. أداة \"calculate_zakat\" هي الأنسب لهذا الغرض لأنها مصممة لحساب الزكاة بناءً على المبلغ والنوع. المدخلات المتوقعة هي: type=مال، amount=5000.0، currency=ريال."}
+{"id": 411, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 412, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 413, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 414, "tool_called": "search_medications", "arguments": {"medication_name": "زنتاك"}, "think": "يبدو أن المستخدم يسأل عن توفر دواء زنتاك في السوق. أداة search_medications هي الأنسب لأنها مصممة للبحث عن الأدوية المتاحة. المدخلات المتوقعة هي medication_name=زنتاك."}
+{"id": 415, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع get_air_quality ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 416, "tool_called": "calculate_zakat", "arguments": {"amount": 500000.0, "currency": "درهم", "type": "cash"}, "think": "فهمت أنك ترغب في حساب زكاة مبلغ 500000 درهم من المال. أداة \"calculate_zakat\" هي الأنسب لهذا الغرض لأنها مصممة خصيصًا لحساب الزكاة بناءً على نوع المال والمبلغ المحدد. المدخلات المتوقعة هي: type=مال، amount=500000.0، currency=درهم."}
+{"id": 417, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 418, "tool_called": "search_umrah_packages", "arguments": {"departure_city": "جدة", "num_persons": 5.0}, "think": "يبدو أن المستخدم يبحث عن باقة عمرة في جدة لخمسة أشخاص. أداة \"search_umrah_packages\" هي الأنسب لهذا الغرض لأنها مصممة للبحث عن باقات العمرة بناءً على المدينة وعدد الأشخاص. المدخلات المتوقعة هي: departure_city=جدة وnum_persons=5."}
+{"id": 419, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 420, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 421, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع get_air_quality ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 422, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع get_air_quality ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 423, "tool_called": "search_medications", "arguments": {"medication_name": "املوديبين"}, "think": "يبدو أن المستخدم يبحث عن معلومات حول دواء الضغط العالي المعروف باسم املوديبين. أداة \"search_medications\" هي الأنسب لأنها مصممة للبحث عن الأدوية وتقديم المعلومات المتعلقة بها. المدخلات المتوقعة هي medication_name=املوديبين."}
+{"id": 424, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 425, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع general_knowledge ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 426, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع price_comparison ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 427, "tool_called": "order_food", "arguments": {"items": "كشري", "restaurant": "كشري التحرير"}, "think": "فهمت أنك بحاجة لطلب كشري من مطعم كشري التحرير. أداة \"order_food\" هي الأنسب هنا لأنها مخصصة لطلب الطعام من المطاعم. المدخلات المتوقعة هي: restaurant=كشري التحرير وitems=كشري."}
+{"id": 428, "tool_called": "compare_prices", "arguments": {"country": "البحرين", "product_name": "بلايستيشن ٥"}, "think": "يبدو أن المستخدم يبحث عن أسعار البلايستيشن ٥ في البحرين. أداة \"compare_prices\" هي الأنسب لأنها مصممة لمقارنة الأسعار للمنتجات في دول معينة. المدخلات المتوقعة هي: product_name=بلايستيشن 5 و country=البحرين."}
+{"id": 429, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 430, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع opinion ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 431, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع get_weather ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 432, "tool_called": "get_weather", "arguments": {"city": "البحرين", "days": 1.0}, "think": "يبدو أن المستخدم يرغب في معرفة حالة الطقس في البحرين ليوم غد. أداة get_weather هي الأنسب لهذا الغرض لأنها توفر معلومات دقيقة عن الطقس في المدن. المدخلات المتوقعة هي city=البحرين وdays=1."}
+{"id": 433, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع get_weather ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 434, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع chitchat ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 435, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 436, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 437, "tool_called": "search_hotels", "arguments": {"check_in": "2023-10-25", "check_out": "2023-10-28", "city": "الإسكندرية"}, "think": "يبدو أن المستخدم يرغب في حجز فندق في الإسكندرية خلال الفترة من 25 إلى 28 أكتوبر. أداة \"search_hotels\" هي الأنسب لهذا الغرض لأنها مصممة للبحث عن الفنادق بناءً على المدينة وتواريخ الإقامة. المدخلات المتوقعة هي: city=الإسكندرية، check_in=2023-10-25، check_out=2023-10-28."}
+{"id": 438, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع get_air_quality ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 439, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_traffic_violations ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 440, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 441, "tool_called": "calculate_zakat", "arguments": {"amount": 10000.0, "currency": "درهم", "type": "cash"}, "think": "فهمت أنك ترغب في معرفة كيفية حساب زكاة المال على مبلغ ١٠٠٠٠ درهم. أداة \"calculate_zakat\" هي الأنسب لهذا الغرض لأنها مصممة لحساب الزكاة بناءً على نوع المال والمبلغ المحدد. المدخلات المتوقعة هي: type=مال، amount=10000.0، currency=درهم."}
+{"id": 442, "tool_called": "book_doctor_appointment", "arguments": {"city": "طنطا", "date": "الاثنين", "specialty": "جهاز هضمي"}, "think": "فهمت أنك بحاجة إلى حجز موعد مع دكتور متخصص في الجهاز الهضمي في مدينة طنطا يوم الاثنين. أداة \"book_doctor_appointment\" هي الأنسب لأن لديها القدرة على تحديد التخصص والموقع والتاريخ. المدخلات المتوقعة هي: specialty=جهاز هضمي، city=طنطا، date=الاثنين."}
+{"id": 443, "tool_called": "search_hotels", "arguments": {"check_in": "2024-02-01", "check_out": "2024-02-05", "city": "بيروت", "guests": 2.0}, "think": "يبدو أن المستخدم يبحث عن فنادق مناسبة في بيروت لشخصين خلال الفترة من 1 فبراير إلى 5 فبراير. أداة \"search_hotels\" هي الأنسب لهذا الغرض لأنها مصممة للبحث عن خيارات الإقامة بناءً على المدينة وتواريخ الوصول والمغادرة وعدد الضيوف. المدخلات المتوقعة هي: city=بيروت، check_in=2024-02-01، check_out=2024-02-05، guests=2."}
+{"id": 444, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 445, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 446, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع chitchat ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 447, "tool_called": "search_umrah_packages", "arguments": {"departure_city": "الطائف", "num_persons": 5.0}, "think": "فهمت أنك ترغب في حجز باقة عمرة من الطائف لخمسة أشخاص. أداة \"search_umrah_packages\" هي الأنسب لهذا الغرض لأنها مصممة للبحث عن باقات العمرة بناءً على المدينة وعدد الأشخاص. المدخلات المتوقعة هي: departure_city=الطائف وnum_persons=5."}
+{"id": 448, "tool_called": "get_weather", "arguments": {"city": "الرياض"}, "think": "يبدو أن المستخدم يريد معرفة حالة الطقس في الرياض اليوم. أداة get_weather هي الأنسب لهذا الغرض لأنها توفر معلومات دقيقة عن الطقس في المدن. المدخلات المتوقعة هي city=الرياض."}
+{"id": 449, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 450, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_traffic_violations ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 451, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 452, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 453, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_iqama_status ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 454, "tool_called": "calculate_zakat", "arguments": {"amount": 2000.0, "currency": "دولار", "type": "cash"}, "think": "يبدو أن المستخدم يريد معرفة كيفية حساب زكاة المال على مبلغ 2000 دولار. أداة \"calculate_zakat\" هي الأنسب لهذا الغرض لأنها مصممة لحساب الزكاة بناءً على نوع المال والمبلغ المحدد. المدخلات المتوقعة هي: type=مال، amount=2000.0، currency=دولار."}
+{"id": 455, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 456, "tool_called": "order_food", "arguments": {"items": "٣ وجبات دجاج, بطاطس", "restaurant": "البيك"}, "think": "يبدو أن المستخدم يرغب في طلب طعام من مطعم البيك، حيث طلب ٣ وجبات دجاج وبطاطس. أداة \"order_food\" هي الأنسب هنا لأنها مصممة لتسهيل عملية طلب الطعام من المطاعم. المدخلات المتوقعة هي: restaurant=البيك وitems=٣ وجبات دجاج, بطاطس."}
+{"id": 457, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع calculate_end_of_service ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 458, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 459, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع opinion ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 460, "tool_called": "convert_currency", "arguments": {"amount": 3000.0, "from_currency": "SYP", "to_currency": "LBP"}, "think": "يبدو أن المستخدم يرغب في تحويل 3000 ليرة سورية إلى ليرة لبنانية. أداة \"convert_currency\" هي الأنسب لهذا الغرض لأنها مصممة لتحويل العملات بين مختلف الأنواع. المدخلات المتوقعة هي: amount=3000.0، from_currency=SYP، to_currency=LBP."}
+{"id": 461, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 462, "tool_called": "transfer_money", "arguments": {"amount": 2500.0, "currency": "SAR", "recipient_iban": "SA4420000001234567890123", "recipient_name": "يوسف"}, "think": "يبدو أن المستخدم يرغب في تحويل مبلغ 2500 ريال سعودي إلى حساب يوسف باستخدام رقم IBAN محدد. أداة transfer_money هي الأنسب لهذا الغرض لأنها مصممة لإجراء تحويلات مالية. المدخلات المتوقعة هي: amount=2500.0، currency=SAR، recipient_name=يوسف، recipient_iban=SA4420000001234567890123."}
+{"id": 463, "tool_called": "search_hotels", "arguments": {"check_in": "2024-01-01", "check_out": "2024-01-03", "city": "القاهرة"}, "think": "فهمت أنك تبحث عن فندق في القاهرة خلال الفترة من 1 إلى 3 يناير. أداة \"search_hotels\" هي الأنسب لأنها مصممة للبحث عن الفنادق بناءً على المدينة وتواريخ الإقامة. المدخلات المتوقعة هي: city=القاهرة، check_in=2024-01-01، check_out=2024-01-03."}
+{"id": 464, "tool_called": "search_umrah_packages", "arguments": {"departure_city": "الخبر", "num_persons": 5.0}, "think": "فهمت أنك تبحث عن باقة عمرة من مدينة الخبر لخمسة أشخاص. أداة \"search_umrah_packages\" هي الأنسب لأنها مصممة للبحث عن باقات العمرة بناءً على المدينة وعدد الأشخاص. المدخلات المتوقعة هي: departure_city=الخبر وnum_persons=5."}
+{"id": 465, "tool_called": "calculate_customs", "arguments": {"category": "إكسسوارات", "destination_country": "الإمارات", "product_value": 2000.0}, "think": "فهمت أنك ترغب في حساب الجمارك على ساعة قيمتها ٢٠٠٠ جنيه وهي اكسسوارات مستوردة من الإمارات. أداة \"calculate_customs\" هي الأنسب لهذا الغرض لأنها مصممة لحساب الرسوم الجمركية بناءً على قيمة المنتج وفئته ودولة الوجهة. المدخلات المتوقعة هي: product_value=2000.0، category=إكسسوارات، destination_country=الإمارات."}
+{"id": 466, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 467, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 468, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 469, "tool_called": "check_traffic_violations", "arguments": {"id_number": "2233445566"}, "think": "يبدو أن المستخدم يرغب في التحقق من وجود مخالفات مرورية مرتبطة بهويته. أداة \"check_traffic_violations\" هي الأنسب لهذا الغرض لأنها مصممة خصيصًا لفحص المخالفات المرورية. المدخلات المتوقعة هي id_number=2233445566."}
+{"id": 470, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 471, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 472, "tool_called": "search_hotels", "arguments": {"check_in": "2023-12-15", "check_out": "2023-12-18", "city": "مسقط", "guests": 2.0}, "think": "فهمت أنك ترغب في حجز فنادق في مسقط لشخصين من 15 إلى 18 ديسمبر. أداة \"search_hotels\" هي الأنسب لهذا الغرض لأنها مصممة للبحث عن خيارات الإقامة بناءً على المدينة وتواريخ الوصول والمغادرة وعدد الضيوف. المدخلات المتوقعة هي: city=مسقط، check_in=2023-12-15، check_out=2023-12-18، guests=2."}
+{"id": 473, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع compare_prices ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 474, "tool_called": "book_doctor_appointment", "arguments": {"city": "الإسكندرية", "date": "الأسبوع الجاي", "specialty": "قلب"}, "think": "فهمت أنك ترغب في حجز موعد مع دكتور قلب في الإسكندرية للأسبوع القادم. أداة \"book_doctor_appointment\" هي الأنسب لأن لديها القدرة على تحديد التخصص والموقع والتاريخ المطلوب. المدخلات المتوقعة هي: specialty=قلب، city=الإسكندرية، date=الأسبوع الجاي."}
+{"id": 475, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع ambiguous_underspecified ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 476, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 477, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع exchange ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 478, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 479, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 480, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_visa_status ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 481, "tool_called": "check_insurance_coverage", "arguments": {"insurance_number": "123456789", "procedure": "عملية المنظار"}, "think": "يبدو أن المستخدم يسأل عن تغطية تأمينه لعملية المنظار. أداة \"check_insurance_coverage\" هي الأنسب لأنها مصممة للتحقق من تغطية التأمين للإجراءات الطبية. المدخلات المتوقعة هي insurance_number=123456789 وprocedure=عملية المنظار."}
+{"id": 482, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 483, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 484, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 485, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع حساب الزكاة ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 486, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع calculate_end_of_service ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 487, "tool_called": "transfer_money", "arguments": {"amount": 1000.0, "currency": "USD", "recipient_iban": "KW12345678901234567890123456", "recipient_name": "عبدالله"}, "think": "يبدو أن المستخدم يرغب في تحويل مبلغ ١٠٠٠ دولار أمريكي إلى حساب أخيه عبدالله في الكويت. أداة \"transfer_money\" هي الأنسب لهذا الغرض لأنها مصممة لإجراء تحويلات مالية. المدخلات المتوقعة هي: amount=1000.0، currency=USD، recipient_name=عبدالله، recipient_iban=KW12345678901234567890123456."}
+{"id": 488, "tool_called": "calculate_zakat", "arguments": {"amount": 5000.0, "currency": "جنيه", "type": "cash"}, "think": "يبدو أن المستخدم يريد معرفة كيفية حساب زكاة المال على مبلغ 5000 جنيه. أداة \"calculate_zakat\" هي الأنسب لهذا الغرض لأنها مصممة لحساب الزكاة بناءً على نوع المال والمبلغ المحدد. المدخلات المتوقعة هي: type=مال، amount=5000.0، currency=جنيه."}
+{"id": 489, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_visa_status ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 490, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 491, "tool_called": "check_iqama_status", "arguments": {"iqama_number": "3456789012"}, "think": "يبدو أن المستخدم يرغب في التحقق من حالة إقامته باستخدام رقم الإقامة. الأداة الأنسب لذلك هي check_iqama_status، حيث توفر معلومات دقيقة حول حالة الإقامة. المدخلات المتوقعة هي iqama_number=3456789012."}
+{"id": 492, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع calculate_end_of_service ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 493, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 494, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 495, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_visa_status ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 496, "tool_called": "compare_prices", "arguments": {"country": "السعودية", "product_name": "لاب توب ديل"}, "think": "يبدو أن المستخدم يرغب في مقارنة أسعار لاب توب ديل في السعودية. أداة \"compare_prices\" هي الأنسب لهذا الغرض لأنها مصممة خصيصًا لمقارنة الأسعار للمنتجات في دول معينة. المدخلات المتوقعة هي: product_name=لاب توب ديل و country=السعودية."}
+{"id": 497, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع convert_currency ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 498, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 499, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع calculate_end_of_service ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 500, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 501, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 502, "tool_called": "compare_prices", "arguments": {"country": "لبنان", "product_name": "تليفونات سامسونج"}, "think": "يبدو أن المستخدم يرغب في مقارنة أسعار تليفونات سامسونج بين لبنان والأردن. أداة \"compare_prices\" هي الأنسب لهذا الغرض لأنها مصممة لمقارنة الأسعار بين الدول المختلفة. المدخلات المتوقعة هي: product_name=تليفونات سامسونج وcountry=لبنان."}
+{"id": 503, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع general_knowledge ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 504, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع general_knowledge ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 505, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 506, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 507, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع book_doctor_appointment ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 508, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 509, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع general_knowledge ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 510, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 511, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_iqama_status ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 512, "tool_called": "search_umrah_packages", "arguments": {"city": "المدينة المنورة", "num_persons": 5.0}, "think": "يبدو أن المستخدم يبحث عن باقات عمرة من المدينة المنورة لعدد ٥ أشخاص. أداة \"search_umrah_packages\" هي الأنسب لهذا الغرض لأنها مصممة للبحث عن باقات العمرة بناءً على المدينة وعدد الأشخاص. المدخلات المتوقعة هي: city=المدينة المنورة وnum_persons=5."}
+{"id": 513, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع book_doctor_appointment ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 514, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 515, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 516, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع chitchat ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 517, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_traffic_violations ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 518, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 519, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع check_traffic_violations ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 520, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 521, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 522, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 523, "tool_called": "transfer_money", "arguments": {"amount": 750.0, "currency": "EUR", "recipient_iban": "EG12345678901234567890123456", "recipient_name": "محمود حسن"}, "think": "يبدو أن المستخدم يرغب في تحويل مبلغ 750 يورو إلى حساب محمود حسن في بنك مصر. أداة \"transfer_money\" هي الأنسب لهذا الغرض لأنها مصممة لإجراء عمليات تحويل الأموال. المدخلات المتوقعة هي: amount=750.0، currency=EUR، recipient_name=محمود حسن، recipient_iban=EG12345678901234567890123456."}
+{"id": 524, "tool_called": "get_qibla_direction", "arguments": {"city": "الدمام"}, "think": "يبحث المستخدم عن اتجاه القبلة في مدينة الدمام. أداة get_qibla_direction هي الأنسب لأنها توفر معلومات دقيقة عن اتجاه القبلة بناءً على الموقع. المدخلات المتوقعة هي city=الدمام."}
+{"id": 525, "tool_called": "calculate_zakat", "arguments": {"amount": 200000.0, "currency": "درهم", "type": "cash"}, "think": "يبدو أن المستخدم يريد حساب مقدار الزكاة المستحقة على مبلغ 200000 درهم. أداة \"calculate_zakat\" هي الأنسب لهذا الغرض لأنها مصممة خصيصًا لحساب الزكاة بناءً على المبلغ والنوع. المدخلات المتوقعة هي: type=مال، amount=200000.0، currency=درهم."}
+{"id": 526, "tool_called": "calculate_customs", "arguments": {"category": "لابتوب", "destination_country": "السعودية", "product_value": 3000.0}, "think": "يبدو أن المستخدم يرغب في معرفة قيمة الجمارك على لابتوب قيمته 3000 ريال في السعودية. أداة \"calculate_customs\" هي الأنسب لهذا الغرض لأنها مصممة لحساب الرسوم الجمركية بناءً على قيمة المنتج وفئته والدولة المستهدفة. المدخلات المتوقعة هي: product_value=3000.0، category=لابتوب، destination_country=السعودية."}
+{"id": 527, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 528, "tool_called": "order_food", "arguments": {"items": "كباب, 2 كفتة", "restaurant": "المحروسة"}, "think": "يبدو أن المستخدم يرغب في طلب طعام من مطعم المحروسة، حيث اختار الكباب والكفتة. أداة \"order_food\" هي الأنسب هنا لأنها مصممة لتسهيل عملية طلب الطعام من المطاعم. المدخلات المتوقعة هي restaurant=المحروسة وitems=كباب, 2 كفتة."}
+{"id": 529, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 530, "tool_called": "check_visa_status", "arguments": {"visa_number": "4567891"}, "think": "يبدو أن المستخدم يرغب في معرفة حالة تأشيرته برقم ٤٥٦٧٨٩١. أداة \"check_visa_status\" هي الأنسب لهذا الغرض لأنها مصممة للتحقق من حالة التأشيرات. المدخلات المتوقعة هي: visa_number=4567891."}
+{"id": 531, "tool_called": "check_visa_status", "arguments": {"visa_number": "123456789"}, "think": "يبدو أن المستخدم يرغب في معرفة حالة تأشيرته باستخدام رقم التأشيرة المحدد. أداة \"check_visa_status\" هي الأنسب لهذا الغرض لأنها مصممة للتحقق من حالة التأشيرات. المدخلات المتوقعة هي: visa_number=123456789."}
+{"id": 532, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 533, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 534, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع get_weather ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 535, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 536, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 537, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 538, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع book_doctor_appointment ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 539, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع chitchat ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 540, "tool_called": "compare_prices", "arguments": {"country": "السعودية", "product_name": "آيفون"}, "think": "يبدو أن المستخدم يرغب في معرفة أسعار الآيفون في السعودية. أداة \"compare_prices\" هي الأنسب لهذا الغرض لأنها مصممة لمقارنة الأسعار للمنتجات في دول معينة. المدخلات المتوقعة هي: product_name=آيفون و country=السعودية."}
+{"id": 541, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 542, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 543, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع weather ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}
+{"id": 544, "tool_called": "none", "arguments": {}, "think": "هذا السؤال من نوع off_domain ولا يحتاج إلى استدعاء أداة من الأدوات المتاحة."}

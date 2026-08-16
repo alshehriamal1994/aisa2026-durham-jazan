@@ -1,0 +1,67 @@
+#!/usr/bin/env bash
+# Watcher for v13 = Qwen2.5-7B r64 (strong, balances ALLaM-heavy zoo). 8-vote.
+set -u
+cd "$(dirname "$0")/.."
+export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
+FINAL=runs/qwen7b-v13-r64-2ep/final
+DONE=runs/v13_autoeval_DONE.txt
+LOG=runs/autoeval_v13.log
+echo "[autoeval-v13] start $(date)" >> "$LOG"
+while [ ! -d "$FINAL" ]; do sleep 120; done
+while pgrep -f "train_qlora.*qwen7b-v13" >/dev/null; do sleep 30; done
+sleep 30
+python3 scripts/run_infer.py --base Qwen/Qwen2.5-7B-Instruct \
+  --adapter "$FINAL" --gold data/processed_v11/dev.jsonl \
+  --out results/dev_qwen7b_v13.jsonl >> "$LOG" 2>&1
+python3 - >> "$DONE" 2>&1 <<'PY'
+import sys, json, collections
+sys.path.insert(0,"baselines/leaderboard-code-v1_1")
+from data_loader import load_gold, parse_predictions
+from eval_lib import evaluate
+from normalize import canon_value, args_match
+gold=load_gold("dev"); pos=[g for g in gold if (g.get('tool_called') or 'none')!='none']
+def load(p):
+    try: return {x['id']:x for x in parse_predictions(p)[0]}
+    except: return {}
+files={'v7b':"results/dev_qwen7b_v7b.jsonl",'v7':"results/dev_qwen7b_v7.jsonl",
+       'v9':"results/dev_allam_v9.jsonl",'v8':"results/dev_qwen7b_v8.jsonl",
+       'v10':"results/dev_allam_v10.jsonl",'v11':"results/dev_silma_v11.jsonl",
+       'v12':"results/dev_allam_v12.jsonl",'v13':"results/dev_qwen7b_v13.jsonl"}
+M={k:load(v) for k,v in files.items()}
+def vote(gid,keys):
+    preds=[M[m][gid] for m in keys if gid in M[m] and M[m]]
+    if not preds: return None
+    tc=collections.Counter(p.get('tool_called') or 'none' for p in preds)
+    best=tc.most_common(1)[0][0]
+    active=[p for p in preds if (p.get('tool_called') or 'none')==best]
+    if best=='none': return {'id':gid,'tool_called':'none','arguments':{},'think':''}
+    kc=collections.Counter()
+    for p in active:
+        for k in (p.get('arguments') or {}): kc[k]+=1
+    args={}
+    for k,cnt in kc.items():
+        if cnt<len(active)/2: continue
+        cl=collections.defaultdict(list)
+        for p in active:
+            v=(p.get('arguments') or {}).get(k)
+            if v is not None and str(v).strip(): cl[canon_value(v,k)].append(v)
+        if cl: args[k]=max(cl.items(),key=lambda kv:len(kv[1]))[1][0]
+    return {'id':gid,'tool_called':best,'arguments':args,'think':''}
+def score(keys,label,out=None):
+    present=[k for k in keys if M.get(k)]
+    ens=[vote(g['id'],present) for g in gold]; ens=[e for e in ens if e]
+    if out: open(out,"w").write("\n".join(json.dumps(e,ensure_ascii=False) for e in ens)+"\n")
+    s=evaluate(ens,gold)
+    print(f"{label:18s} OverallA={s['overall_a']:.4f}  ArgEM={s['argem']:.4f}")
+    return s['overall_a']
+print("=== v13 Qwen-r64 + 8-vote ===")
+if M.get('v13'):
+    s=evaluate([M['v13'][g['id']] for g in gold if g['id'] in M['v13']],gold)
+    print(f"v13 alone          OverallA={s['overall_a']:.4f}  ArgEM={s['argem']:.4f}")
+allm=['v7b','v7','v9','v8','v10','v11','v12']
+score(allm,"7-vote (prev)")
+b=score(allm+['v13'],"8-vote (ALL)","results/dev_vote8.jsonl")
+print(f"baseline 7-vote 0.8637 | target 0.8668 | best now {b:.4f}")
+print("VERDICT:", "*** BEATS TARGET -> SUBMIT results/dev_vote8.jsonl ***" if b>0.8668 else f"still short by {0.8668-b:.4f}")
+PY
+echo "[autoeval-v13] DONE $(date)" >> "$LOG"

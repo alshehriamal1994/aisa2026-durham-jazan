@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this code or the released predictions, please cite the system description paper."
+title: "Durham-Jazan at AISA-ArabicFC 2026"
+authors:
+  - family-names: Alshehri
+    given-names: Amal Saad
+  - family-names: Bencomo
+    given-names: Nelly
+  - family-names: Babiker
+    given-names: Housam
+  - family-names: Atapour-Abarghouei
+    given-names: Amir
+repository-code: "https://github.com/alshehriamal1994/aisa2026-durham-jazan"
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: "Durham-Jazan at AISA-ArabicFC: A Field-Wise QLoRA Ensemble and the Sensitivity of Exact-Match Scoring"
+  authors:
+    - family-names: Alshehri
+      given-names: Amal Saad
+    - family-names: Bencomo
+      given-names: Nelly
+    - family-names: Babiker
+      given-names: Housam
+    - family-names: Atapour-Abarghouei
+      given-names: Amir
+  collection-title: "Proceedings of the Second Arabic Natural Language Processing Conference (ArabicNLP 2026)"
+  year: 2026

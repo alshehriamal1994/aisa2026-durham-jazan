@@ -1,0 +1,14 @@
+# Pinned to the environment that produced the submitted system.
+torch==2.6.0
+transformers==5.5.0
+peft==0.18.0
+bitsandbytes==0.49.0
+datasets==4.5.0
+accelerate==1.12.0
+liger-kernel
+sentencepiece
+protobuf
+pandas
+pyarrow
+scikit-learn
+numpy
