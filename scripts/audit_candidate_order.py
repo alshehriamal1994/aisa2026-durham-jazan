@@ -12,7 +12,6 @@ Usage:
     python scripts/audit_candidate_order.py --hub --revision f43e65a2   # v1.4
 
 The blind test split ships with the gold nulled, so it cannot be audited here.
-The organisers report the same property on 997 of 997 test positives.
 """
 import argparse
 import collections
