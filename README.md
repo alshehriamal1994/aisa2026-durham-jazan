@@ -5,9 +5,18 @@ Code for our entry to the AISA-ArabicFC shared task on Arabic function calling, 
 Our system is a majority vote taken separately on each argument, over six QLoRA adapters trained on two open 7B models, ALLaM-7B-Instruct and Qwen2.5-7B-Instruct. All training and inference ran on one 16 GB consumer card. The entry finished 9th of 17 in Track A, 8th of 17 in Track B, and 11th of 21 in the Track C dialect diagnostic.
 
 One property of the data is worth knowing before you read the code. The reference tool is the first of the four candidates on all 11,000 training and development rows that call a tool, so a system that always answers the first candidate scores the same FnAcc as our six models. 
-Re-running inference with the four candidates shuffled costs the voted system 0.202 FnAcc and 0.184 ArgEM on development, against the 0.323 a purely positional system would score. The dependence is very uneven across members, from -0.064 for the strongest to -0.650 for the rank-64 ALLaM member, which answers with the first candidate on 90.5 per cent of rows where the reference sits there on 26.2 per cent. The shuffled input is in `predictions/shuffled/`, together with each member's predictions on both orderings, `*_control.jsonl` for the original order and `*_shuffled.jsonl` for the shuffled one, both produced in the same environment on the same day so the comparison carries no drift. `scripts/score_shuffle_vote.py` reproduces the whole comparison from them without a GPU.
+Re-running inference with the four candidates shuffled costs the voted system 0.202 FnAcc and 0.190 ArgEM on development under the final evaluator (0.186 under the scorer the development leaderboard used), against the 0.323 a purely positional system would score. `scripts/audit_candidate_order.py` checks the position of the reference tool on any release of the dataset, as the release stores the candidate schemas (`tools_sampled`) and as they are rendered into the prompt. It is first on every positive row of every release from v1.1 to v1.6, and the organisers report the same on 997 of 997 blind-test positives. The dependence is very uneven across members, from -0.064 for the strongest to -0.650 for the rank-64 ALLaM member, which answers with the first candidate on 90.5 per cent of rows where the reference sits there on 26.2 per cent. The shuffled input is in `predictions/shuffled/`, together with each member's predictions on both orderings, `*_control.jsonl` for the original order and `*_shuffled.jsonl` for the shuffled one, both produced in the same environment on the same day so the comparison carries no drift. `scripts/score_shuffle_vote.py` reproduces the whole comparison from them without a GPU.
 
 Retraining one adapter per base on the same data with the candidate order permuted removes the dependence. Shuffled-order FnAcc rises from 0.839 to 0.985 for ALLaM and from 0.936 to 0.996 for Qwen, at a canonical-order cost of 0.016 and 0.006 and no loss of ArgEM. `scripts/permute_candidates.py` builds the permuted training file (seed 20260816) and the four resulting prediction files are in `predictions/permtrain/`, scored by `scripts/score_permtrain.py`.
+
+## Scoring, and the two evaluators
+
+The organisers revised the reference six times (v1.1 on 12 June 2026 to v1.6 on 23 July) and the scorer four times (4 to 24 July). The development leaderboard and the submitted version of our paper were scored with the scorer of 23 June and release v1.4. The blind test and the camera-ready paper use the final pinned evaluator, the scorer of 24 July with release v1.6. Both scorers are pinned under `scorer/`, and `predictions/dev/` holds the six members' development predictions, the four rule variants of the vote, and the Qwen2.5-32B run.
+
+    python scripts/rescore_final_evaluator.py --scorer scorer/final_20260724 --gold 35338790
+    python scripts/rescore_final_evaluator.py --scorer scorer/submitted_20260623 --gold f43e65a2
+
+regenerates every development figure in the paper under the final evaluator and under the evaluator of the submitted version respectively. The `--gold` argument is a commit of the `TuwaiqAcademy/AISA-ArabicFC` dataset, downloaded on first use. The headline moves from ArgEM 0.822 to 0.824 between the two, the year rule goes from +0.004 to inert, since v1.6 removed the invented 2023 years the rule reproduced, and the omit rule goes from +0.022 to +0.028.
 
 ## Layout
 
@@ -15,6 +24,8 @@ Retraining one adapter per base on the same data with the candidate order permut
     src/aisa/           prompt construction, normalisation, canonicalisation
     predictions/        the four files we submitted for the blind test
     predictions/members the six per-member blind predictions the vote was taken over
+    predictions/dev/    the same six members and four variants on the development split
+    scorer/             the official scorer, pinned at 23 June and at 24 July 2026
     docs/               our data use disclosure
 
 Worth knowing about in `scripts/`:

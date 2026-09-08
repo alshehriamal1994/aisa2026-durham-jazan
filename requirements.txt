@@ -12,3 +12,4 @@ pandas
 pyarrow
 scikit-learn
 numpy
+huggingface_hub
