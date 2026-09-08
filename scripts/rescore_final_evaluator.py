@@ -56,7 +56,8 @@ SUBMITTED_SCORER = "scorer/submitted_20260623" if RELEASE else "baselines/leader
 _v13_spec = importlib.util.spec_from_file_location("normalize_v13", SUBMITTED_SCORER + "/normalize.py")
 _nz_v13 = importlib.util.module_from_spec(_v13_spec)
 _v13_spec.loader.exec_module(_nz_v13)
-_saved = sys.modules.get("normalize"); sys.modules["normalize"] = _nz_v13
+_saved = sys.modules.get("normalize")
+sys.modules["normalize"] = _nz_v13
 ev_spec = importlib.util.spec_from_file_location("ev", "scripts/ensemble_vote.py")
 ev = importlib.util.module_from_spec(ev_spec)
 try:
@@ -192,7 +193,8 @@ def vote(members, id2user, order=ORDER, rules=True):
     return {r["id"]: r for r in out}
 
 
-gold = load_gold("dev"); pos = [g for g in gold if g["requires_function"]]
+gold = load_gold("dev")
+pos = [g for g in gold if g["requires_function"]]
 id2user = {g["id"]: g["user"] for g in gold}
 print(f"### scorer={A.scorer}  gold={A.gold}  rows={len(gold)} positives={len(pos)}")
 
@@ -304,7 +306,8 @@ for base, tag, f in [("allam", "canon-trained/canon", CONTROL["aC"]), ("allam", 
                      ("allam", "perm-trained/canon", PERM["allam_c"]), ("allam", "perm-trained/shuf", PERM["allam_s"]),
                      ("qwen", "canon-trained/canon", CONTROL["qC"]), ("qwen", "canon-trained/shuf", SHUF["qC"]),
                      ("qwen", "perm-trained/canon", PERM["qwen_c"]), ("qwen", "perm-trained/shuf", PERM["qwen_s"])]:
-    P = L(f); print(f"   {base:6s} {tag:20s} FnAcc {fnacc(P, gold):.4f}  ArgEM {argem(P, pos):.4f}")
+    P = L(f)
+    print(f"   {base:6s} {tag:20s} FnAcc {fnacc(P, gold):.4f}  ArgEM {argem(P, pos):.4f}")
 
 # 7. competence against convention (V1)
 fail = [g for g in pos if not row_ok(v1.get(g["id"]), g)]
@@ -358,7 +361,8 @@ print(f"   termination_type emitted where reference omits it AND row otherwise r
 agree_raw = sum(all(M[m][i]["tool_called"] == M[ORDER[0]][i]["tool_called"] and clean(M[m][i].get("arguments")) == clean(M[ORDER[0]][i].get("arguments")) for m in ORDER) for i in range(len(gold)))
 agree_canon = 0
 for i in range(len(gold)):
-    t0 = M[ORDER[0]][i]["tool_called"]; a0 = clean(M[ORDER[0]][i].get("arguments"))
+    t0 = M[ORDER[0]][i]["tool_called"]
+    a0 = clean(M[ORDER[0]][i].get("arguments"))
     agree_canon += all(M[m][i]["tool_called"] == t0 and nz.args_match(clean(M[m][i].get("arguments")), a0, t0) for m in ORDER)
 print(f"[agreement] identical on {agree_raw} items; canonically identical on {agree_canon} of {len(gold)}")
 
@@ -366,7 +370,8 @@ print(f"[agreement] identical on {agree_raw} items; canonically identical on {ag
 print("[dialect V1]")
 for d in ["msa", "gulf", "egyptian", "levantine", "maghrebi"]:
     v = [int(row_ok(v1.get(g["id"]), g)) for g in pos if g["dialect"] == d]
-    lo, hi = boot_mean(v); top = collections.Counter(k for g in fail if g["dialect"] == d for k in failing_keys(v1[g["id"]], g)).most_common(3)
+    lo, hi = boot_mean(v)
+    top = collections.Counter(k for g in fail if g["dialect"] == d for k in failing_keys(v1[g["id"]], g)).most_common(3)
     print(f"   {d:10s} {sum(v) / len(v):.3f} [{lo:.3f},{hi:.3f}] n={len(v)}  top failing {top}")
 
 # 11. rule statistics in train, and date surface values
